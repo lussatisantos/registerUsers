@@ -17,6 +17,7 @@
     </nav>
 
     <form action="{% url 'listUsers' %}" method="post">
+        {% csrf_token %}
         <div class="container">
             <h1>Register users</h1>
             <label for="name">Name:</label>

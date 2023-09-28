@@ -3,5 +3,5 @@ from cadUsuario import views
 
 urlpatterns = [
     path('',views.home, name='home'),  
-    path('users/',views.users, name='listUsers') 
+    path('user/',views.user, name='listUsers') 
 ]
